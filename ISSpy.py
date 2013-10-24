@@ -23,10 +23,10 @@ d = 6378.1*c
 
 #Post variables
 
-api = ApiClient('a21ebaf64e14d195c0044fcc3b9f6dab9d653af3')
-latitude = api.get_variable(id = '525c7e4ef91b285823f85d5a')
-longitude = api.get_variable(id = '525c7e43f91b285823f85d59')
-boston_distance = api.get_variable(id = '525c7e69f91b2858265d746a')
+api = ApiClient('a21ebaf64e14d195c0044fcc3b9f6dab9d653afx')
+latitude = api.get_variable(id = '525c7e4ef91b285823f85d5x')
+longitude = api.get_variable(id = '525c7e43f91b285823f85d5x')
+boston_distance = api.get_variable(id = '525c7e69f91b2858265d746x')
 
 boston_distance.save_value({'value':d})
 latitude.save_value({'value':lat})
